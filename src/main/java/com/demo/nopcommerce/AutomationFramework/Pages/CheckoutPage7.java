@@ -15,6 +15,8 @@ public class CheckoutPage7 extends TestBase {
 		PageFactory.initElements(wd, this);
 	}
 	
+	
+	
 	@FindBy(xpath = "//h2[text()='Billing address']")
 	private WebElement billingAddressTitle;
 

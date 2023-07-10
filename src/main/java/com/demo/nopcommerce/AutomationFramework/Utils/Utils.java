@@ -13,6 +13,9 @@ import com.demo.nopcommerce.AutomationFramework.base.TestBase;
 
 public class Utils extends TestBase {
 
+	
+		
+
 	public static void takeScreenShot(String testName) {
 
 		// Time Stamp

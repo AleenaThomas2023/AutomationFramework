@@ -3,10 +3,13 @@ package com.demo.nopcommerce.AutomationFramework.Listeners;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+
 import com.demo.nopcommerce.AutomationFramework.Utils.Utils;
 import com.demo.nopcommerce.AutomationFramework.base.TestBase;
 
 public class CustomListener2 extends TestBase implements ITestListener {
+	
+
 	@Override
 	public void onTestStart(ITestResult result) {
 		logger.info("Test execution started for"+result.getMethod().getMethodName() +" *******************");

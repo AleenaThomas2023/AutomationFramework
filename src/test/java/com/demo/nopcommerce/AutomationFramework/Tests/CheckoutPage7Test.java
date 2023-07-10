@@ -13,12 +13,15 @@ import com.demo.nopcommerce.AutomationFramework.Pages.LoginPage3;
 import com.demo.nopcommerce.AutomationFramework.Pages.NotebooksPage4;
 import com.demo.nopcommerce.AutomationFramework.Pages.StorePage1;
 import com.demo.nopcommerce.AutomationFramework.Pages.WishListPage;
+
 import com.demo.nopcommerce.AutomationFramework.Utils.Utils;
 import com.demo.nopcommerce.AutomationFramework.Pages.RegisterPage2;
 import com.demo.nopcommerce.AutomationFramework.Pages.ShoppingCartPage6;
 import com.demo.nopcommerce.AutomationFramework.base.TestBase;
 
 public class CheckoutPage7Test extends TestBase {
+
+	
 
 	private StorePage1 storePage1;
 	private RegisterPage2 registerPage2;

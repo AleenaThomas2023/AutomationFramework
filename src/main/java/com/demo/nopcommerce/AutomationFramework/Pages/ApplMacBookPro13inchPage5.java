@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import com.demo.nopcommerce.AutomationFramework.base.TestBase;
 
 public class ApplMacBookPro13inchPage5 extends TestBase {
@@ -12,6 +13,8 @@ public class ApplMacBookPro13inchPage5 extends TestBase {
 
 		PageFactory.initElements(wd, this);
 	}
+	
+	
 
 	@FindBy(css = "input#product_enteredQuantity_4")
 	WebElement qtyInputField;
