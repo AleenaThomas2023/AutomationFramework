@@ -102,14 +102,14 @@ public class CheckoutPage7Test extends TestBase {
 		noteBooks4.clickAppleMacLink();
 		macBook5.clickAddToWishLIst();
 		wishlist = macBook5.clickWishLIstButton();
-		Assert.assertEquals(wishlist.getwishlistAppleMacLinkText(), "Apple MacBook Pro 13-inch");
+		Assert.assertEquals(wishlist.getwishlistAppleMacLinkText(), "Apple MacBook Pro 14-inch");
 	}
 
 	@Test
 	public void validateFeaturedProducts() {
 		// Assert that the featured products section is displayed
 		Assert.assertTrue(storePage1.isFeaturedProductSectionDisplayed(),
-				"Featured products section is not displayed.");
+				"Featured products section is not  displayed.");
 
 		storePage1.printProductTitles();
 	}
