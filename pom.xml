@@ -95,12 +95,13 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
+						<!-- Use testng-failed.xml for rerunning failed tests -->
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>test-output/testng-failed.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
-
 				</plugin>
+
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
